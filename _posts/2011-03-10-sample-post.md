@@ -91,10 +91,11 @@ Non Pygments code example
 Make any link standout more when applying the `.btn` class.
 
 ```html
-<a href="/" class="ui positive button">Success Button</a>
+<a href="#" class="btn btn-success">Success Button</a>
 ```
 
-<a href="/" class="ui primary button">Primary Button</a>
-<a href="/" class="ui secondary button">Secondary Button</a>
-<a href="/" class="ui positive button">Positive Button</a>
-<a href="/" class="ui negative button">Negative Button</a>
+<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
